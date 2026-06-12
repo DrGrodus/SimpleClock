@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
-
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
-            prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
-    <Text layoutX="277.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text"/>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.simple_clock.HelloController">
+<!--xmlns:fx="http://javafx.com/fxml/1"-->
+<!--fx:controller="org.example.simple_clock.HelloController"-->
+<!--    <Text layoutX="277.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />-->
+    <Label fx:id="timeLabel" layoutX="289.0" layoutY="192.0" text="Texto" AnchorPane.topAnchor="192.0" />
 </AnchorPane>

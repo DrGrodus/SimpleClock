@@ -1,11 +1,10 @@
-module org.example.simple_clock {
+module org.example.SimpleClock {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.graphics;
-    requires javafx.base;
-    requires java.desktop;
+    requires java.logging;
 
 
-    opens org.example.simple_clock to javafx.fxml;
-    exports org.example.simple_clock;
+    opens org.example.SimpleClock to javafx.fxml;
+    exports org.example.SimpleClock;
 }

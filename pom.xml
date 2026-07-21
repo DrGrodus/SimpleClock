@@ -95,9 +95,9 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>org.example.SimpleClock.SimpleClockApplication</mainClass>
-                            <launcher>app</launcher>
-                            <jlinkZipName>app</jlinkZipName>
-                            <jlinkImageName>app</jlinkImageName>
+                            <launcher>launcher</launcher>
+                            <jlinkZipName>SimpleClock</jlinkZipName>
+                            <jlinkImageName>SimpleClock</jlinkImageName>
                             <noManPages>true</noManPages>
                             <stripDebug>true</stripDebug>
                             <noHeaderFiles>true</noHeaderFiles>

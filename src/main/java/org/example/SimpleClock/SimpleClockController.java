@@ -23,7 +23,7 @@ public class SimpleClockController {
     // Adapted from code of Kensoft PH https://kensoftph.com/how-to-get-current-time-in-java/
     public void startClock() {
         Thread thread = new Thread(() -> {
-            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("H:mm:ss a");
+            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("h:mm:ss a");
             while (true) {
                 try {
                     Thread.sleep(1000);
